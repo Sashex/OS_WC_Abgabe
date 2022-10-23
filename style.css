@@ -1,0 +1,73 @@
+* {
+    font-family: "Helvetica", "Verdana", sans-serif;
+    line-height: 1.4;
+    color: honeydew;
+    text-align: center;
+}
+
+body {
+    background: rgb(44, 44, 44) url("Bilder/space.png") fixed;
+    margin: 0;
+}
+
+div {
+    background: dimgray;
+    width: 60%;
+    margin: 0px auto;
+    padding-top: 0.4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 4%;
+    box-shadow: 2px 2px 10px #666666;
+    border-radius: 20px;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: "Rubik Moonrocks", "Helvetica", "Verdana", sans-serif;
+    font-weight: lighter;
+    background-image: url("Bilder/cosmos-lighting.png");
+    font-size: 400%;
+    margin-top: 0px;
+    padding: 2%;
+    box-shadow: 2px 2px 5px #666666;
+    text-shadow: 2px 2px 2px #666666;
+    border-radius: 40px/50%;
+}
+
+h2, h4 {
+    background: gray;
+    padding: 1%;
+    box-shadow: 2px 2px 5px #666666;
+    border-radius: 20px;
+}
+
+.general {
+    font-size: 1.2em;
+    font-style: oblique;
+    padding-bottom: 3%;
+}
+
+
+.padding-fix {
+    color: rgb(44, 44, 44);
+    width: 10%;
+}
+
+input {
+    font-size: 1.1em;
+}
+
+button {
+    font-size: 20px;
+    color:rgb(44, 44, 44);
+    box-shadow: 8px 8px 16px #313131;
+    border-radius: 10px;   
+}
+
+button:hover {
+ 	box-shadow: 8px 8px 16px  #000;  
+}

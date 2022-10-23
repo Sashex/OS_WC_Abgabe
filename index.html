@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondgrundstückskalkulator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.py" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <h1>Mondgrundstückskalkulator</h1> 
+        <img src="Bilder/moontransp.png" alt="Mond">
+    
+    <div>    
+        <div class="general">
+            <p>Sie wollten schon immer Teilbesitzer des Mondes sein? Mit Hilfe dieses wunderschönen Tools können Sie den
+                Wert einer von Ihnen ausgewählten Fläche des Mondes ermitteln. Hierbei können Sie nicht nur die Größe
+                der Fläche
+                frei wählen, sondern auch entscheiden, ob diese der Erde und somit Ihnen zugewandt ist! Des Weiteren
+                können
+                Sie sich den Wert in einer von Ihnen gewünschten Währung ausgeben lassen.</p>
+        </div>
+    
+    <form action="./cgi-bin/script.cgi" method="get">
+        <section class="calc">
+            <h2>Geben Sie nun Ihre gewünschten Werte ein.</h2>
+            <h4><label for="qkm">Fläche des Mondes:</label></h4>
+            <p><input class="padding-fix" type="number" name="qkm" id="qkm" min="0" max="37932330" placeholder="Fläche in km²: " required></p>
+
+            <br>
+
+            <section>
+                <h4><label>Fläche des Mondes der Erde zu- oder abgewandt?</label></h4>
+                <p><input type="radio" name="side_radio" value="1.2" checked>zugewandt</p>
+                <p><input type="radio" name="side_radio" value="1">abgewandt</p>    
+            </section>
+
+            <br>
+
+            <h4><label>Wählen Sie Ihre gewünschte Währung: </label></h4>
+            <p><input type="radio" name="curr_radio" value="Euro" checked>Euro</p>
+            <p><input type="radio" name="curr_radio" value="Dollar">Dollar</p>
+            <p><input type="radio" name="curr_radio" value="Rubel">Rubel</p>
+            <p><input type="radio" name="curr_radio" value="Bitcoin">Bitcoin</p>
+            <p><input type="radio" name="curr_radio" value="Döner">Döner</p>
+
+            <br>
+
+            <p><button type="submit"> Wert berechnen</button></p>
+        </section>
+    </form>
+    </div>
+</body>
+
+</html>
