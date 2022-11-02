@@ -1,4 +1,4 @@
-URL: http://pan.th-brandenburg.de/~hinz/index.html
+URL: http://pan.th-brandenburg.de/~name/index.html
 Name: 
 Matrikelnummer: 
 
