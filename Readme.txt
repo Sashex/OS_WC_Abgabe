@@ -1,6 +1,6 @@
 URL: http://pan.th-brandenburg.de/~hinz/index.html
-Name: Alexander Hinz
-Matrikelnummer: 20223926
+Name: 
+Matrikelnummer: 
 
 Kurzbeschreibung des Projektes:
 Eine einfache Seite zur Berechnung des Preises einer Fläche des Mondes in verschiedenen Währungen.
